@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-10-2023 a las 01:29:00
+-- Tiempo de generación: 14-10-2023 a las 16:36:49
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -94,7 +94,9 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id`, `email`, `password`) VALUES
-(1, 'webadmin', '$2y$10$TqkqTZJKWJvPircDiqiXaukRHTGFX0VN7aAdDAj07gpvT/66OexR.');
+(1, 'webadmin', '$2y$10$TqkqTZJKWJvPircDiqiXaukRHTGFX0VN7aAdDAj07gpvT/66OexR.'),
+(3, 'paulo.manuel.alvarez@gmail.com', '$2y$10$B14Dajdzl.BA0eeB7w25HeJ5sxYXhNxLBEd6aadqCt/yVo/pUL0vy'),
+(4, 'josefinabelaunzaran0106@gmail.com', '$2y$10$9LDcuSXn1n5C2.OgsKlF6umv4hntYR40WVrmCwtuxvpVKyl.ipacS');
 
 -- --------------------------------------------------------
 
@@ -199,13 +201,13 @@ ALTER TABLE `cepa`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT de la tabla `vino`
 --
 ALTER TABLE `vino`
-  MODIFY `ID_vino` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `ID_vino` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- Restricciones para tablas volcadas
